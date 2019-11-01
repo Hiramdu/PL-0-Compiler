@@ -1,0 +1,18 @@
+var x,y,z;
+begin
+     x:=10;
+     y:=-5;
+     read(z);
+     repeat 
+          if z >5 then 
+begin
+	z:=z+8;
+        z:=z+z;
+end;
+          else
+          z:=z+4;
+     until 
+          z>10; 
+    write(z);
+    read(z);
+end.
